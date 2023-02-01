@@ -34,7 +34,7 @@ def create_connecthoin(db_name, db_user, db_password, db_host, db_port):
         print(f"The error '{e}' occurred")
     return connection
 
-connection = create_connecthoin('coon_db', 'vlad', 'supervlad', '94.228.122.247', '5433')
+connection = create_connecthoin
 
 def execute_query(connection, query):
     connection.autocommit = True
